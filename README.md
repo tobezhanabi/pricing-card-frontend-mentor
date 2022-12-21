@@ -13,9 +13,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+ - [Author](#author)
+
 
 
 
@@ -41,8 +40,8 @@ Mobile Version
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/tobezhanabi/pricing-card-frontend-mentor.git)
+- Live Site URL: [Forve site ](https://tobezhanabi.github.io/pricing-card-frontend-mentor/)
 
 ## My process
 
