@@ -18,8 +18,8 @@ p {
   box-sizing: inherit;
 }
 #card {
-  width: 600px;
-  height: 400px;
+/*   width: 600px;
+  height: 400px; */
   box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
   overflow: hidden;
@@ -37,7 +37,7 @@ p {
 
 #bottom-left {
   display: inline-block;
-  width: 50%;
+  width: 100%;
   height: 100%;
   vertical-align: top;
   background-color: #2ab2af;
@@ -46,7 +46,7 @@ p {
 #bottom-right {
   display: inline-block;
   vertical-align: top;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-color: #1ac9c8;
   padding: 25px;
@@ -115,4 +115,15 @@ ul {
 }
 footer {
   padding: 20px;
+}
+
+@media (min-width: 576px){
+  #card{
+    width:550px;
+    height: 400px;
+  }
+  #bottom-left, #bottom-right{
+    width:50%;
+     
+  }
 }
