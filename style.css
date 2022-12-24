@@ -18,7 +18,7 @@ p {
   box-sizing: inherit;
 }
 #card {
-/*   width: 600px;
+  /*   width: 600px;
   height: 400px; */
   box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
@@ -30,26 +30,24 @@ p {
   padding: 25px;
 }
 #bottom-section {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 55%;
   color: white;
 }
 
 #bottom-left {
-  display: inline-block;
-  width: 100%;
   height: 100%;
-  vertical-align: top;
+  flex-basis: 50%;
   background-color: #2ab2af;
   padding: 25px;
 }
 #bottom-right {
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
   height: 100%;
   background-color: #1ac9c8;
   padding: 25px;
+  flex-basis: 50%;
 }
 
 #top-section h2 {
@@ -92,21 +90,18 @@ button:hover {
   font-size: 0.8rem;
   margin-bottom: 40px;
 }
-#price-frequency,
-#price {
-  display: inline-block;
+#price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
+
 #price-frequency {
-  position: relative;
-  top: -3px;
   font-size: 0.75rem;
   opacity: 0.75;
   margin-left: 5px;
 }
 
-#price-container {
-  margin-bottom: 10px;
-}
 ul {
   padding: 0;
   list-style: none;
@@ -117,13 +112,12 @@ footer {
   padding: 20px;
 }
 
-@media (min-width: 576px){
-  #card{
-    width:550px;
+@media (min-width: 576px) {
+  #card {
+    width: 550px;
     height: 400px;
   }
-  #bottom-left, #bottom-right{
-    width:50%;
-     
+  #bottom-section {
+    flex-direction: row;
   }
 }
